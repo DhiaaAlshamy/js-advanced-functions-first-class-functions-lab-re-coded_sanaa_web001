@@ -2,9 +2,8 @@
 const returnFirstTwoDrivers=(drivers)=>drivers.slice(0,1);
 
 
-const returnLastTwoDrivers=function(drivers){
-    return drivers.slice(-2,1);
-}
+const returnLastTwoDrivers=(drivers)=> drivers.slice(-2,1);
+
 const selectingDrivers =[returnFirstTwoDrivers(),returnLastTwoDrivers()];
 
 function createFareMultiplier(num){
