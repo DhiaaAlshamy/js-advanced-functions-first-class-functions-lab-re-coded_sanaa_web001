@@ -10,7 +10,7 @@ const selectingDrivers =[returnFirstTwoDrivers,returnLastTwoDrivers];
 
 function createFareMultiplier(num){
     return function(num){
-        return num*num;
+        return num*num==2?2:3;
     }
 }
 const  fareDoubler=createFareMultiplier(2);
